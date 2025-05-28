@@ -5,9 +5,9 @@ import pandas as pd
 import pickle
 import os
 
-MODEL_PATH = "../baccarat_rf_model.pkl"
-SIDE_MODEL_PATH = "../baccarat_side_model.pkl"
-LOG_PATH = "LastChance/baccarat_live_log.csv"
+MODEL_PATH = "baccarat_rf_model.pkl"
+SIDE_MODEL_PATH = "baccarat_side_model.pkl"
+LOG_PATH = "baccarat_live_log.csv"
 
 st.set_page_config(layout="wide")
 
